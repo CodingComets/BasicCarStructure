@@ -6,6 +6,7 @@ public class Main {
         toyota.model = "corolla";
         toyota.power = "2000cc";
 
+
         Engine x= new Engine();
         x.cylinders = "5";
         x.weight = "100000";
@@ -14,5 +15,10 @@ public class Main {
         Lights bulb = new Lights();
         bulb.color = "white";
         bulb.intensity = "1000 lumens";
+
+        Color colors = new Color();
+        colors.carColor = "white";
+        colors.carWindowColor = "tinted";
+
     }
 }
