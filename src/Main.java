@@ -5,5 +5,9 @@ public class Main {
         toyota.color = "white";
         toyota.model = "corolla";
         toyota.power = "2000cc";
+
+        Color colors = new Color();
+        colors.carColor = "white";
+        colors.carWindowColor = "tinted";
     }
 }
